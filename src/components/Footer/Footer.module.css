@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 7vh;
+
+  background-color: #00275b;
+  color: #506685;
+  border-radius: 1.5rem 1.5rem 0  0; 
+  
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}
