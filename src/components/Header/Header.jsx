@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import styles from './Header.module.css'; // Certifique-se de importar o seu arquivo de estilos
+import styles from './Header.module.css';
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
