@@ -4,7 +4,7 @@ import styles from './UserList.module.css'
 
 
 
-export default function UsersList () {
+export default function UserList () {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
