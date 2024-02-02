@@ -1,4 +1,4 @@
-import Container from "../components/Container/container";
+import Container from "../components/Container/Container";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import UsersList from "../components/UserList/Userlist";
